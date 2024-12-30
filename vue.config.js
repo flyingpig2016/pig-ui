@@ -1,5 +1,4 @@
-const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
+module.exports = {
   transpileDependencies: true,
   pages: {
     index: {
@@ -8,10 +7,8 @@ module.exports = defineConfig({
       filename: 'index.html',
     }
   },
-   // 强制内联CSS（使用组件时，不需要再引入css）
+  // 强制内联CSS（使用组件时，不需要再引入css）
   css: {
     extract: false
-  },
-
-
-})
+  }
+}
