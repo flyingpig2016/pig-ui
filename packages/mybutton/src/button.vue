@@ -3,6 +3,6 @@
 </template>
 <script>
   export default {
-    name: "ElButton",
+    name: "PigButton",
   };
 </script>

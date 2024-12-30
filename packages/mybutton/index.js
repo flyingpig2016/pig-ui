@@ -1,7 +1,7 @@
-import ElButton from './src/button.vue';
+import PigButton from './src/button.vue';
 
-ElButton.install = function (Vue) {
-  Vue.component(ElButton.name, ElButton);
+PigButton.install = function (Vue) {
+  Vue.component(PigButton.name, PigButton);
 };
 
-export default ElButton;
+export default PigButton;

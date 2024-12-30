@@ -1,16 +1,20 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome" />
+    <PigButton></PigButton>
+
+    <!-- <HelloWorld msg="Welcome" /> -->
   </div>
 </template>
 
 <script>
-  import HelloWorld from "./components/HelloWorld.vue";
+  // import HelloWorld from "./components/HelloWorld.vue";
+  // import Button from "../packages/mybutton/index";
 
   export default {
     name: "App",
     components: {
-      HelloWorld,
+      // Button,
+      // HelloWorld,
     },
   };
 </script>
